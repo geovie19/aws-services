@@ -10,3 +10,7 @@ resource "aws_subnet" "my-public-subnet" {
     cidr_block = "192.168.1.0/24"
     
 } 
+resource "aws_subnet" "my-public-subnet2" {
+    vpc_id = "vpc-0b58cec938bc0d06b"
+    cidr_block = "192.168.2.0/24"
+    
